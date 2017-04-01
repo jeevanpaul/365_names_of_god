@@ -15,8 +15,21 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     int current_index;
-    ArrayList<String> god_names = new ArrayList<String>(Arrays.asList("I am to be feared above all gods", "I am great and worthy to be praised"));
-    ArrayList<String> corresponding_descriptions = new ArrayList<String>(Arrays.asList("1 Chronicles 16:25New King James Version (NKJV) \n For the Lord is great and greatly to be praised; He is also to be feared above all gods.", "1 Chronicles 16:25New King James Version (NKJV) \n For the Lord is great and greatly to be praised; He is also to be feared above all gods."));
+    ArrayList<String> god_names = new ArrayList<String>(Arrays.asList("I am to be feared above all gods",
+            "I am great and worthy to be praised",
+            "I am the LORD, worship me in holiness",
+            "I am God exalted as head over all ",
+            "I am God, greatness, power, glory, victory and majesty belongs to Me",
+            "I am God, power and might are in My hand",
+            "I am God, riches and honor come from Me"));
+    ArrayList<String> corresponding_descriptions = new ArrayList<String>(Arrays.asList("1 Chronicles 16:25New King James Version (NKJV) \n For the Lord is great and greatly to be praised; He is also to be feared above all gods.",
+            "1 Chronicles 16:25New King James Version (NKJV) \n For the Lord is great and greatly to be praised; He is also to be feared above all gods.",
+            "1 Chronicles 16:29New King James Version (NKJV) \n Give to the Lord the glory due His name; Bring an offering, and come before Him. Oh, worship the Lord in the beauty of holiness!",
+            "1 Chronicles 29:11New King James Version (NKJV)\n Yours, O Lord, is the greatness, The power and the glory, The victory and the majesty; For all that is in heaven and in earth is Yours; Yours is the kingdom, O Lord, And You are exalted as head over all.",
+            "1 Chronicles 29:11New King James Version (NKJV)\n Yours, O Lord, is the greatness, The power and the glory, The victory and the majesty; For all that is in heaven and in earth is Yours; Yours is the kingdom, O Lord, And You are exalted as head over all.",
+            "1 Chronicles 29:12New King James Version (NKJV)\n Both riches and honor come from You, And You reign over all. In Your hand is power and might; In Your hand it is to make great And to give strength to all.",
+            "1 Chronicles 29:12New King James Version (NKJV)\n Both riches and honor come from You, And You reign over all. In Your hand is power and might; In Your hand it is to make great And to give strength to all."
+            ));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
